@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteBold.ttf) format('woff'); 
+	font-weight: 700; font-style: normal; 
+}
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteMedium.ttf) format('woff'); 
+	font-weight: 600; font-style: normal; 
+}
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteRegular.ttf) format('woff'); 
+	font-weight: 400; font-style: normal; 
+}
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteLight.ttf) format('woff'); 
+	font-weight: 300; font-style: normal; 
+}
+
+html {font-size: 10px;}
+body {
+	font: 1.4rem 'MyLotte', sans-serif;
+/*	font: 1.4rem 'Noto Sans KR', sans-serif;*/
+	font-weight: 400;
+	letter-spacing: -0.35px;
+    line-height: 1.5;
+	color: #eaeaea;
+}
+h1, h2, h3, h4, h5 {font-family: 'MyLotte', sans-serif; font-weight: 600;}
+button {font-family: 'Noto Sans KR', sans-serif;color: #fff;}
+
+
+/* font */
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/css/font/NanumGothic-Regular.eot);
+    src: url(/css/font/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'), url(/css/font/NanumGothic-Regular.woff2) format('woff2'), url(/css/font/NanumGothic-Regular.woff) format('woff'), url(/css/font/NanumGothic-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url(/css/font/NanumGothic-Bold.eot);
+    src: url(/css/font/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'), url(/css/font/NanumGothic-Bold.woff2) format('woff2'), url(/css/font/NanumGothic-Bold.woff) format('woff'), url(/css/font/NanumGothic-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 800;
+    src: url(/css/font/NanumGothic-ExtraBold.eot);
+    src: url(/css/font/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'), url(/css/font/NanumGothic-ExtraBold.woff2) format('woff2'), url(/css/font/NanumGothic-ExtraBold.woff) format('woff'), url(/css/font/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 400;
+ src: url(/css/font/NanumSquareR.eot);
+ src: url(/css/font/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+      url(/css/font/NanumSquareR.woff) format('woff'),
+      url(/css/font/NanumSquareR.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 700;
+ src: url(/css/font/NanumSquareB.eot);
+ src: url(/css/font/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+      url(/css/font/NanumSquareB.woff) format('woff'),
+      url(/css/font/NanumSquareB.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 800;
+ src: url(/css/font/NanumSquareEB.eot);
+ src: url(/css/font/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+      url(/css/font/NanumSquareEB.woff) format('woff'),
+      url(/css/font/NanumSquareEB.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'NanumSquare';
+ font-weight: 300;
+ src: url(/css/font/NanumSquareL.eot);
+ src: url(/css/font/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+      url(/css/font/NanumSquareL.woff) format('woff'),
+      url(/css/font/NanumSquareL.ttf) format('truetype');
+}

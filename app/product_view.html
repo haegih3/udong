@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>상품 상세페이지 - 우리동네</title>
+<!-- css -->
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/fonts.css" type="text/css">
+	<link rel="stylesheet" href="css/swiper.min4.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- jquery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/swiper.min4.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+<header class="hd fix">
+   <div class="inner">
+		<a href="javascript:history.go(-1);" class="hd_back fl"></a>
+		<h1 class="shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</h1>
+		<div class="tnb fr">
+			<ul>
+				<li class="cart"><a href="cart.html"><span class="blind">장바구니</span></a></li>
+			</ul>
+		</div>
+    </div>
+</header>
+<section class="product_view tab pb_60">
+	<div class="tab_menu bd_top">
+		<div class="inner clearfix">
+			<a href="#prd_info" class="fl on">상품설명</a>
+			<a href="#prd_review" class="fl">후기</a>
+			<a href="#prd_qna" class="fl">상품문의</a>
+			<a href="#prd_order" class="fl">주문정보</a>
+		</div>
+	</div>
+	
+	<div id="prd_info" class="tab_con on">
+		<div class="img_wr">
+			<figure class="thumb_img">
+				<img src="img/goodsample2_big.png" alt="상품">
+			</figure>
+		</div>
+		<div class="contents">
+			<div class="inner">
+				<div class="stock_info">
+					<p class="stock">남은 수량 : <span class="stock_num red">1234</span>개</p>
+					<p class="stock">남은 시간 : <span class="stock_time green">23:40:12</span></p>
+				</div>
+				<p class="prd_tit shortening2">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+				<p class="desc shortening2">상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.상품 설명글입니다.</p>
+				
+				<div class="clearfix">
+					<p class="prd_price fl">
+						<span class="last_price"><em class="price_num">49,500</em>원</span>
+						<span class="discount red"><em class="discount_num">10</em>%</span>
+						<span class="first_price">55,000원</span>
+					</p>
+					
+					<p class="star_area fr">
+						<span class="star_num">4.7</span>
+						<span class="review">후기 <em class="review_num">1000</em></span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="prd_shop clearfix contents">
+			<div class="inner">
+				<span>입점몰명입니다.</span>
+				<a href="minishop.html" class="fr">미니샵이동</a>
+			</div>
+		</div>
+		<div class="contents">
+			<div class="inner">
+				<p>상품상세설명입니다.상품상세설명입니다.상품상세설명입니다.상품상세설명입니다.상품상세설명입니다.상품상세설명입니다.</p>
+				<img src="img/prdsample.png" alt="상품상세설명">
+			</div>
+		</div>
+	</div>
+		
+	<div id="prd_review" class="tab_con">
+		<div class="inner">
+			<a href="review.html" class="btn_line">후기작성</a>
+			<ul class="review_list">
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening"><img src="img/samimg_thum.png" alt="이미지 있음">제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star4.png" alt="별점4"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening">텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star2.png" alt="별점2"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening"><img src="img/samimg_thum.png" alt="이미지 있음">좋아요</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star5.png" alt="별점5"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening"><img src="img/samimg_thum.png" alt="이미지 있음">마음에 들어요.</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star3.png" alt="별점3"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening">사진은 없어요</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star5.png" alt="별점5"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening"><img src="img/samimg_thum.png" alt="이미지 있음">마음에 들어요 마음에 들어요.</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star4.png" alt="별점4"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening">배송이 빨라서 좋아요</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star4.png" alt="별점4"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening">사진은 없어요</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star4.png" alt="별점4"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening"><img src="img/samimg_thum.png" alt="이미지 있음">마음에 들어요 마음에 들어요.</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star3.png" alt="별점3"></span>
+					</div>
+				</li>
+				<li>
+					<a href="review_view.html">
+						<span class="rv_tit shortening">배송이 빨라서 좋아요</span>
+					</a>
+					<div class="rv_info">
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+						<span class="star_count"><img src="img/star4.png" alt="별점4"></span>
+					</div>
+				</li>
+			</ul>
+			<button type="button" class="btn_grey">더보기</button>
+		</div> 
+	</div>
+	
+	<div id="prd_qna" class="tab_con">
+		<div class="inner">
+			<a href="qna_write.html" class="btn_line">상품문의 작성</a>
+			<ul class="review_list">
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_line">답변대기</span>
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					<!--	삭제버튼 작성자에게만 보임	-->
+						<button type="button" class="pink">삭제</button>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.제목입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다. 이하 더미텍스트입니다.<br>위하여 못하다 용기가 부패뿐이다. 있는 있으며, 속잎나고, 풀이 그러므로 인생의 것이다.<br>불어 하는 얼마나 피고 바로 더운지라 있는가? 평화스러운 힘차게 거친 황금시대다. 할지니, 많이 뜨고, 간에 몸이 듣는다. 피가 있는 피에 앞이 가슴에 황금시대의 속에 싹이 부패뿐이다.
+						</p>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉네임</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.텍스트만 있는 후기제목입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="rv_info">
+						<span class="qna_state circle_full">답변완료</span>
+						<span class="rv_writer">닉**</span>
+						<time datetime="2020-10-04">2020.10.04</time>
+					</div>
+					<a href="javascript:;" class="js_accordion">
+						<span class="rv_tit shortening js_title">비밀글입니다.</span>
+					</a>
+					<div class="list_con js_con">
+						<p class="desc">
+							문의내용입니다.
+						</p>
+						<div class="rv_ans">
+							문의 답변 내용이 보여집니다.
+						</div>
+					</div>
+				</li>
+			</ul>
+			<button type="button" class="btn_grey">더보기</button>
+		</div>
+	</div>
+	
+	<div id="prd_order" class="tab_con">
+		<div class="inner">주문정보 내용이 보여집니다.</div>
+	</div>
+	
+	<div class="bottom_fix">
+		<button type="button" class="btn_favor js_favor"><span class="blind">관심등록하기</span></button>
+		<button type="button" class="btn_submit js_go_buying" onclick="location.href='order_prd.html'">구매하기</button>
+	</div>
+</section>
+
+<!--구매창-->
+<div id="buying">
+	<div class="bg js_close"></div>
+	<div class="btn_cap js_close">
+		<span>></span>
+	</div>
+	<div class="contents">
+		<div class="inner">
+		
+			<ul class="opt_form">
+				<li class="opt_price clearfix">
+					<h3 class="fl">판매가격</h3>
+					<p class="fr"><span>49,500</span>원</p>
+				</li>
+				<li class="opt_delivery clearfix">
+					<h3 class="fl">배송비</h3>
+					<p class="fr"><span>2,500</span>원 <span>(업체배송)</span></p>
+				</li>
+			</ul>
+			
+			<div class="opt_form opt_go">
+				<h3>옵션선택</h3>
+				<a href="javascript:;" class="select_tit">옵션선택 (필수)<span class="current"></span></a>
+			</div>
+<!--	옵션 선택한 상품리스트	-->
+			<ul class="selected_list">
+				<li>
+					<input type="button" class="delete js_del">
+					<p class="selected_tit">
+						<span>블랙</span><span>260<em class="plus_price">+5,000원</em></span>
+					</p>
+					<div class="selected_count">
+						<input type="button" value="-" class="button_count no_active" disabled>
+						<input type="text" readonly class="number_product" value="1">
+						<input type="button" value="+" class="button_count no_active" >
+					</div>
+					<p class="selected_price"><span>54,500</span>원</p>
+				</li>
+				<li>
+					<input type="button" class="delete js_del">
+					<p class="selected_tit">
+						<span>화이트</span><span>240</span>
+					</p>
+					<div class="selected_count">
+						<input type="button" value="-" class="button_count no_active" disabled>
+						<input type="text" readonly class="number_product" value="1">
+						<input type="button" value="+" class="button_count no_active" >
+					</div>
+					<p class="selected_price"><span>49,500</span>원</p>
+				</li>
+				<li>
+					<input type="button" class="delete js_del">
+					<p class="selected_tit">
+						<span>화이트</span><span>240</span>
+					</p>
+					<div class="selected_count">
+						<input type="button" value="-" class="button_count no_active" disabled>
+						<input type="text" readonly class="number_product" value="1">
+						<input type="button" value="+" class="button_count no_active" >
+					</div>
+					<p class="selected_price"><span>49,500</span>원</p>
+				</li>
+			</ul>
+			
+			<div class="opt_form">
+				<div class="opt_price clearfix">
+<!--		아래 h3는 상품의 옵션을 선택했을 때에 보여짐		-->
+					<h3 class="fl">총 <span>2</span>개의 상품</h3>
+					<p class="fr"><span class="pink">106,500</span>원</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="btn_group">
+		<button type="button" class="btn_grey go_cart">장바구니</button>
+		<button type="button" class="btn_submit" onclick="location.href='order_member.html'">바로구매</button>
+	</div>
+	
+	<div class="option_insort">
+		<div class="inner">
+			<h3>옵션</h3>
+			<div class="selectbox">
+				<a href="javascript:;" class="select_tit">색상<span class="pink current"></span></a>
+				<ul>
+					<li><span>블랙</span></li>
+					<li><span>화이트</span></li>
+				</ul>
+			</div>
+			<div class="selectbox">
+				<a href="javascript:;" class="select_tit">사이즈<span class="pink current"></span></a>
+				<ul>
+					<li><span>210</span></li>
+					<li><span>220</span></li>
+					<li><span>230</span></li>
+					<li><span>240</span></li>
+					<li><span>250</span></li>
+					<li><span>260</span></li>
+					<li><span>270</span></li>
+					<li><span>280</span></li>
+					<li><span>290</span></li>
+					<li><span>300<em class="plus_price">+5,000원</em></span></li>
+				</ul>
+			</div>
+		</div>
+		<button type="button" class="circle_line btn_close">확인</button>
+	</div>
+</div>
+<!-- 팝업시작 -->
+<div id="pop_putin_cart" class="pop">
+	<div class="pop_bg">
+		<div class="pop_con">
+			<p>장바구니에 상품이 담겼습니다.</p>
+			<div class="clearfix">
+				<a href="cart.html">장바구니가기</a>
+				<button type="button" class="pink">쇼핑계속하기</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>

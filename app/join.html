@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>회원가입 - 우리동네</title>
+<!-- css -->
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/fonts.css" type="text/css">
+	<link rel="stylesheet" href="css/swiper.min4.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- jquery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/swiper.min4.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+<header class="hd fix">
+   <div class="inner">
+		<a href="javascript:history.go(-1);" class="hd_back fl"></a>
+		<h1>개인 회원가입</h1>
+    </div>
+</header>
+<section id="join_form">
+	<form name="login" class="form_set">
+		<fieldset>
+			<legend class="blind">회원가입정보 입력</legend>
+			<div class="inner">
+				<div class="ipbox wnbox">
+					<label for="join_id">아이디</label>
+					<input type="text" name="id" id="join_id" placeholder="아이디를 입력해주세요">
+					<button type="button" class="pink">중복체크</button>
+					<span class="warning">사용 불가능한 아이디입니다</span>
+				</div>
+				
+				<div class="ipbox wnbox">
+					<label for="join_nickname">닉네임</label>
+					<input type="text" name="nickname" id="join_nickname" placeholder="닉네임을 입력해주세요">
+					<button type="button" class="pink">중복체크</button>
+					<span class="warning">사용 불가능한 닉네임입니다</span>
+				</div>
+				
+				<div class="ipbox">
+					<label for="join_pwd">비밀번호</label>
+					<input type="password" name="pwd" id="join_pwd" placeholder="특수문자 포함 7자 이상입력">
+					<label for="confirm_pwd">비밀번호 확인</label>
+					<input type="password" name="pwd" id="confirm_pwd" placeholder="특수문자 포함 7자 이상입력">
+				</div>
+			</div>
+			
+			<div class="trbox"></div>
+			
+			<div class="inner">
+				<div class="ipbox">
+					<label for="join_name">이름</label>
+					<input type="text" name="name" id="join_name" placeholder="이름을 입력해주세요">
+				</div>
+				
+				<div class="ipbox wnbox">
+					<label for="join_phone">휴대전화</label>
+					<input type="text" name="phone" id="join_phone" placeholder="휴대폰번호를 입력해주세요">
+					<button type="button" class="pink">인증요청</button>
+					<span class="warning">인증 문자가 발송되었습니다.</span>
+				</div>
+				
+				<div class="ipbox wnbox">
+					<label for="join_number">인증번호</label>
+					<input type="text" name="number" id="join_number" placeholder="인증번호를 입력해주세요">
+					<button type="button" class="pink">인증하기</button>
+					<span class="warning">인증이 승인되었습니다.</span>
+				</div>
+				
+				<div class="ipbox combobox">
+					<label>생년월일</label>
+					<select id="years" class="combo_year">
+						<option value="" hidden>년도</option>
+					</select>
+					<select id="months">
+						<option value="" hidden>월</option>
+					</select>                        
+					<select id="days">
+						<option value="" hidden>일</option>
+					</select> 
+				</div>
+				
+				<div class="ipbox radio_box">
+					<label>성별</label>
+					<input type="radio" name="gender" id="gender_m" value="male">
+					<label for="gender_m" class="chkbox">남</label>
+					<input type="radio" name="gender" id="gender_f" value="female" checked>
+					<label for="gender_f" class="chkbox">여</label>
+				</div>
+				
+				<div class="ipbox">
+					<label for="join_email">이메일</label>
+					<input type="text" name="email" id="join_email" placeholder="이메일계정을 입력해주세요">
+				</div>
+				
+				<div class="ipbox ip_addr">
+					<label for="join_addr">배송주소</label>
+					<div class="addr_search">
+						<input type="text" id="join_add" class="ip_search">
+						<button type="button" class="btn_sch_bg"><span class="blind">주소검색하기</span></button>
+					</div>
+					<input type="text">
+				</div>
+				
+				<div class="agree_area ipbox chkbox_container">
+					<div class="all_ck">
+						<input id="ck0" type="checkbox" name="all_ck">
+						<label for="ck0"><span class="custom"></span>약관 전체 동의</label>
+					</div>
+					<ul class="list_agree">
+						<li>
+							<input id="ck1" class="normal" type="checkbox" name="ck" checked>
+							<label for="ck1"><span class="blind">체크</span></label>
+							<a href="policy.html" target="_blank" class="link-policy">[필수] 우리동네 서비스 이용약관 동의</a>
+						</li>
+						<li>
+							<input id="ck2" class="normal" type="checkbox" name="ck" checked>
+							<label for="ck2"><span class="blind">체크</span></label>
+							<a href="policy.html" target="_blank" class="link-policy">[필수] 개인정보 수집 및 이용에 관한 동의</a>
+						</li>
+						<li>
+							<input id="ck3" class="normal" type="checkbox" name="ck">
+							<label for="ck3"><span class="blind">체크</span></label>
+							<a href="policy.html" target="_blank" class="link-policy">[선택] 마케팅 정보 수신에 관한 동의</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="btn_group_1">
+				<button type="button" onclick="location.href='login.html'" class="btn_grey">회원가입</button>
+				<!-- 폼에 입력이 완성되면 아래 버튼클래스명으로 클래스명 바꿔줌
+				
+				<button type="button" onclick="location.href='login.html'" class="btn_submit">회원가입</button>
+				-->
+			</div>
+		</fieldset>
+	</form>
+</section>
+
+</body>
+
+</html>

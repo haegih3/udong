@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>우리동네</title>
+<!-- css -->
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/fonts.css" type="text/css">
+	<link rel="stylesheet" href="css/swiper.min4.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- jquery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/swiper.min4.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+<header class="hd fix">
+	<div class="inner">
+		<span class="logo fl"><a href="shopping.html">LOGO</a></span>
+		<div class="tnb">
+			<ul>
+				<li class="fav"><a href="favor.html"><span class="blind">관심목록</span></a></li>
+				<li class="cart"><a href="cart.html"><span class="blind">장바구니</span></a></li>
+				<li class="myinfo"><a href="mypage.html"><span class="blind">계정정보</span></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<!-- //header -->
+<div id="main" class="pb_60">
+	<div class="inner">
+		<div class="main_search">
+			<button type="button" onclick="location.href='search.html'"><span class="blind">검색</span></button>
+			<label for="main_src" class="blind">상품전체검색</label>
+			<input type="search" id="main_src">
+		</div>
+		<div class="nanum clearfix">
+			<span class="nanum_writing fl"></span>
+			<span class="nanum_money fr"><em class="green">202,003,160</em>원</span>
+		</div>
+	</div>
+<!-- //search -->
+	<!-- Swiper 시작 -->
+	<div class="main_visual">
+		<div class="swiper-container slide_banner_swiper">
+			<div class="swiper-wrapper">
+				<div class="slide_banner1 swiper-slide"><a href="event_view.html" class="main_bn01"><img src="img/banner_1.png" alt="배너광고 01"></a></div>
+				<div class="slide_banner2 swiper-slide"><a href="event_view.html" class="main_bn02"><img src="img/banner_1.png" alt="배너광고 02"></a></div>
+				<div class="slide_banner3 swiper-slide"><a href="event_view.html" class="main_bn03"><img src="img/banner_1.png" alt="배너광고 03"></a></div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Add Arrows 
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>-->
+		</div>
+	</div>
+	<!-- Swiper 끝 -->
+	<div class="inner">
+		<section id="main_jointbuy">
+			<div class="sec_title clearfix">
+				<h2>공동구매</h2>
+				<span class="desc">모이면 저렴, 같이 구매해요</span>
+				<a href="product_view.html" class="more fr"><span class="pink">더보기</span></a>
+			</div>
+			<div class="jointbuy_prd">
+				<div class="swiper-container jointbuy_swiper">
+					<div class="swiper-wrapper">
+						<div class="banner1 swiper-slide">
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_1.png" alt="상품">
+									</figure>
+									<p class="discount"><span class="discount_num">10</span>%</p>
+									<p class="stock">수량 : <span class="stock_num">1234</span>개</p>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다. 상품명입니다. 상품명입니다. 상품명입니다. 상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">49,500</em>원</span>
+										<span class="first_price">55,000원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="banner2 swiper-slide">
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_1.png" alt="상품">
+									</figure>
+									<p class="discount"><span class="discount_num">10</span>%</p>
+									<p class="stock">수량 : <span class="stock_num">1234</span>개</p>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다. 상품명입니다. 상품명입니다. 상품명입니다. 상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">49,500</em>원</span>
+										<span class="first_price">55,000원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+						<div class="banner3 swiper-slide">
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_1.png" alt="상품">
+									</figure>
+									<p class="discount"><span class="discount_num">10</span>%</p>
+									<p class="stock">수량 : <span class="stock_num">1234</span>개</p>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다. 상품명입니다. 상품명입니다. 상품명입니다. 상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">49,500</em>원</span>
+										<span class="first_price">55,000원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows >-->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		</section>
+<!-- //공동구매 -->
+		<section id="main_delivery">
+			<div class="sec_title clearfix">
+				<h2>배달음식</h2>
+				<span class="desc">동네 맛집 한곳에</span>
+				<a href="delivery.html" class="more fr"><span class="pink">더보기</span></a>
+			</div>
+			<div class="category">
+				<ul class="clearfix">
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_chicken.png" alt="치킨">
+							<p>치킨</p>
+						</a>
+					</li>
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_pizza.png" alt="피자">
+							<p>피자</p>
+						</a>
+					</li>
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_chinese.png" alt="중국음식">
+							<p>중국집</p>
+						</a>
+					</li>
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_bunsik.png" alt="떡볶이">
+							<p>분식</p>
+						</a>
+					</li>
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_japanese.png" alt="돈까스">
+							<p>돈까스</p>
+						</a>
+					</li>
+				</ul>
+				<ul class="clearfix">
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_bossam.png" alt="족발,보쌈">
+							<p>족발·보쌈</p>
+						</a>
+					</li>
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_night_food.png" alt="라면">
+							<p>야식</p>
+						</a>
+					</li>
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_korean_food.png" alt="한식">
+							<p>한식</p>
+						</a>
+					</li>
+					<li>
+						<a href="delivery.html">
+							<img src="img/deli_dessert.png" alt="디저트">
+							<p>카페·디저트</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="contents swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="delivery_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_2.png" alt="음식">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 스와이퍼 스크립트 -->
+			<script>
+				var swiper = new Swiper('#main_delivery .swiper-container', {
+				  slidesPerView: 2.3,
+				  spaceBetween: 20,
+				});
+		    </script>
+		</section>
+<!-- //배달음식 -->
+		<section id="main_mart">
+			<div class="sec_title clearfix">
+				<h2>동네마트</h2>
+				<span class="desc">당일배송 장보기</span>
+				<a href="javascript:;" class="more fr"><span class="pink">더보기</span></a>
+			</div>
+			<div class="contents swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<a href="minishop.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_3.png" alt="매장풍경">
+								</figure>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p>
+									<span class="town_name">지역동</span>
+								</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="minishop.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_3.png" alt="매장풍경">
+								</figure>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p>
+									<span class="town_name">지역동</span>
+								</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="minishop.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_3.png" alt="매장풍경">
+								</figure>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p>
+									<span class="town_name">지역동</span>
+								</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="minishop.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_3.png" alt="매장풍경">
+								</figure>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p>
+									<span class="town_name">지역동</span>
+								</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="minishop.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_3.png" alt="매장풍경">
+								</figure>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p>
+									<span class="town_name">지역동</span>
+								</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 스와이퍼 스크립트 -->
+			<script>
+				var swiper = new Swiper('#main_mart .swiper-container', {
+				  slidesPerView: 2.5,
+				  spaceBetween: 20,
+				});
+		    </script>
+		</section>
+<!-- //동네마트 -->
+		<section id="main_fresh" class="sec_food">
+			<div class="sec_title clearfix">
+				<h2>신선식품</h2>
+				<a href="javascript:;" class="more fr"><span class="pink">더보기</span></a>
+			</div>
+			<div class="contents swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_4.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 스와이퍼 스크립트 -->
+			<script>
+				var swiper = new Swiper('#main_fresh .swiper-container', {
+				  slidesPerView: 2.5,
+				  spaceBetween: 20,
+				});
+		    </script>
+		</section>
+<!-- //신선식품 -->
+		<section id="main_meat" class="sec_food">
+			<div class="sec_title clearfix">
+				<h2>정육 · 수산</h2>
+				<a href="javascript:;" class="more fr"><span class="pink">더보기</span></a>
+			</div>
+			<div class="contents swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_5.png" alt="식재료">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 스와이퍼 스크립트 -->
+			<script>
+				var swiper = new Swiper('#main_meat .swiper-container', {
+				  slidesPerView: 2.5,
+				  spaceBetween: 20,
+				});
+		    </script>
+		</section>
+<!-- //정육수산 -->
+		<section id="main_stuff" class="sec_food">
+			<div class="sec_title clearfix">
+				<h2>생활용품</h2>
+				<a href="javascript:;" class="more fr"><span class="pink">더보기</span></a>
+			</div>
+			<div class="contents swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+					<li class="swiper-slide">
+						<div>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+							<a href="product_view.html" class="clearfix">
+								<div class="img_wr">
+									<figure class="thumb_img">
+										<img src="img/goodsample_6.png" alt="생활용품">
+									</figure>
+								</div>
+								<div class="thumb_head">
+									<p class="prd_tit shortening">상품명입니다.상품명입니다.상품명입니다.상품명입니다.상품명입니다.</p>
+									<p class="star_area">
+										<span class="star_num">4.7</span>
+										<span class="review">후기 <em class="review_num">1000</em></span>
+									</p>
+									<p class="desc shortening">한줄 설명글입니다</p>
+									<p class="prd_price">
+										<span class="last_price"><em class="price_num">15,000</em>원</span>
+									</p>
+								</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 스와이퍼 스크립트 -->
+			<script>
+				var swiper = new Swiper('#main_stuff .swiper-container', {
+				  slidesPerView: 1.2,
+				  spaceBetween: 20,
+				});
+		    </script>
+		</section>
+<!-- //생활용품 -->
+		<section id="main_banner">
+			<div class="banner_wr">
+				<a href="event_view.html"><img src="img/banner_bg.png" alt="배너"></a>
+				<span>배너영역</span>
+			</div>
+		</section>
+<!-- //배너 -->
+		<section id="main_benefit">
+			<div class="sec_title clearfix">
+				<h2>예매 · 할인권</h2>
+				<span class="desc">혜택이 모였다</span>
+				<a href="benefit.html" class="more fr"><span class="pink">더보기</span></a>
+			</div>
+			<div class="contents swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide">
+						<a href="benefit_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_7.png" alt="매장풍경">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="benefit_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_7.png" alt="매장풍경">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="benefit_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_7.png" alt="매장풍경">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+					<li class="swiper-slide">
+						<a href="benefit_view.html">
+							<div class="img_wr">
+								<figure class="thumb_img">
+									<img src="img/goodsample_7.png" alt="매장풍경">
+								</figure>
+								<p class="discount"><span class="discount_num">25</span>%</p>
+							</div>
+							<div class="thumb_head">
+								<p class="shop_tit shortening">매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다. 매장명입니다.</p>
+								<p class="star_area">
+									<span class="star_num">4.7</span>
+									<span class="review">후기 <em class="review_num">1000</em></span>
+								</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- 스와이퍼 스크립트 -->
+			<script>
+				var swiper = new Swiper('#main_benefit .swiper-container', {
+				  slidesPerView: 1.6,
+				  spaceBetween: 20,
+				});
+		    </script>
+		</section>
+<!-- //예매할인권 -->
+	</div>
+</div>
+
+<!-- fnb 시작 -->
+<footer class="ft bd_top">
+	<ul class="fnb clearfix">
+		<li class="fnb_video fl"><a href="javascript:;">동영상</a></li>
+		<li class="fnb_post fl"><a href="javascript:;">포스트</a></li>
+		<li class="fnb_lank fl"><a href="javascript:;">랭킹</a></li>
+		<li class="fnb_commu fl"><a href="javascript:;">커뮤니티</a></li>
+		<li class="fnb_shop fl on"><a href="shopping.html">쇼핑</a></li>
+	</ul>
+</footer>
+</body>
+
+</html>

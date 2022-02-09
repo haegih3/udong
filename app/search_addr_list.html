@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>계정찾기 - 우리동네</title>
+<!-- css -->
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/fonts.css" type="text/css">
+	<link rel="stylesheet" href="css/swiper.min4.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- jquery -->
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/swiper.min4.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+<header class="hd fix">
+   <div class="inner">
+		<a href="javascript:history.go(-1);" class="hd_back fl"><span class="blind">이전페이지로 가기</span></a>
+		<h1>배달 주소 설정</h1>
+		
+    </div>
+</header>
+<section id="search_addr" class="bd_top">
+	<div class="inner pb_60">
+		<div class="sub_search clearfix">
+			<button type="button"><span class="blind">검색</span></button>
+			<label for="sub_src" class="blind">상품전체검색</label>
+			<input type="search" id="sub_src" placeholder="지번, 도로명, 건물명을 입력하세요">
+		</div>
+		
+		<a href="javascript:;" class="btn_find"><span>현위치로 주소 찾기</span></a>
+		
+		<div id="recent_addr" class="contents">
+			<h2>최근주소</h2>
+			<ul>
+				<li class="clearfix">
+					<div class="fl">
+						<p class="load_name1">인천광역시 연수구 송도동 111-1 송도송송송송송송송송파크 1층</p>
+						<p class="load_name2">[도로명] <span>송도과학로 11 송도송송송송송송파크 1층</span></p>
+					</div>
+					<input type="button" class="delete fr js_del">
+				</li>
+				<li class="clearfix">
+					<div class="fl">
+						<p class="load_name1">인천광역시 연수구 송도동 111-1 송도송송송송송송송송파크 1층</p>
+						<p class="load_name2">[도로명] <span>송도과학로 11 송도송송송송송송파크 1층</span></p>
+					</div>
+					<input type="button" class="delete fr js_del">
+				</li>
+				<li class="clearfix">
+					<div class="fl">
+						<p class="load_name1">인천광역시 연수구 송도동 111-1 송도송송송송송송송송파크 1층</p>
+						<p class="load_name2">[도로명] <span>송도과학로 11 송도송송송송송송파크 1층</span></p>
+					</div>
+					<input type="button" class="delete fr js_del">
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+</body>
+
+</html>
