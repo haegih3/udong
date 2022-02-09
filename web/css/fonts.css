@@ -1,0 +1,34 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteBold.ttf) format('woff'); 
+	font-weight: 700; font-style: normal; 
+}
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteMedium.ttf) format('woff'); 
+	font-weight: 600; font-style: normal; 
+}
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteRegular.ttf) format('woff'); 
+	font-weight: 400; font-style: normal; 
+}
+@font-face { 
+	font-family: 'MyLotte'; 
+	src: url(../font/MyLotteLight.ttf) format('woff'); 
+	font-weight: 300; font-style: normal; 
+}
+
+html {font-size: 10px;}
+body {
+	font: 1.6rem 'MyLotte', sans-serif;
+/*	font: 1.4rem 'Noto Sans KR', sans-serif;*/
+	font-weight: 400;
+	letter-spacing: -0.35px;
+    line-height: 1.5;
+	color: #eaeaea;
+}
+h1, h2, h3, h4, h5 {font-family: 'MyLotte', sans-serif; font-weight: 600;}
+button {font-family: 'Noto Sans KR', sans-serif;color: #fff;}
